@@ -23,5 +23,5 @@ setup(
     author_email='arslaansiddiqui365@gmail.com',
     description='This is an end-to-end guided machine learning project from Krish Naik youtube channel',
     packages=find_packages(),
-    install_requires=['numpy', 'pandas', 'matplotlib', 'scikit-learn']
+    install_requires=get_requirements('requirements.txt')
 )
